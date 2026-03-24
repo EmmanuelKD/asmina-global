@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123" font-family="Georgia, serif">
+  <!-- Background -->
+  <rect width="794" height="1123" fill="#FFFBF2"/>
+  
+  <!-- Top green header band -->
+  <rect width="794" height="220" fill="#1B4332"/>
+  
+  <!-- Decorative circle top right -->
+  <circle cx="720" cy="60" r="140" fill="#2e8037" opacity="0.4"/>
+  <circle cx="750" cy="30" r="90" fill="#4fa158" opacity="0.25"/>
+  
+  <!-- Decorative circle bottom left of header -->
+  <circle cx="40" cy="210" r="80" fill="#2e8037" opacity="0.3"/>
+  
+  <!-- Logo area -->
+  <circle cx="70" cy="70" r="28" fill="#D4A843"/>
+  <text x="70" y="77" text-anchor="middle" font-size="22" fill="#1B4332" font-weight="bold">🌿</text>
+  
+  <text x="110" y="62" font-size="26" font-weight="bold" fill="white" font-family="Georgia, serif">ASMINA GLOBAL</text>
+  <text x="110" y="82" font-size="10" fill="#D4A843" letter-spacing="3" font-family="Arial, sans-serif">AGRICULTURAL EXPORTS</text>
+  
+  <!-- Catalog title -->
+  <text x="397" y="130" text-anchor="middle" font-size="42" font-weight="bold" fill="white" font-family="Georgia, serif">Product Catalog</text>
+  <text x="397" y="160" text-anchor="middle" font-size="14" fill="#D4A84380" font-family="Arial, sans-serif">2024 · 2025 Edition</text>
+  
+  <!-- Subtitle bar -->
+  <rect x="200" y="175" width="394" height="2" fill="#D4A843" opacity="0.5"/>
+  <text x="397" y="200" text-anchor="middle" font-size="12" fill="white" opacity="0.6" font-family="Arial, sans-serif">Premium West African Agricultural Products for Global Markets</text>
+
+  <!-- Products Section Title -->
+  <text x="50" y="260" font-size="11" fill="#D4A843" letter-spacing="3" font-family="Arial, sans-serif">OUR PRODUCTS</text>
+  <rect x="50" y="268" width="40" height="2" fill="#D4A843"/>
+  
+  <!-- Product cards - 3 columns, 2 rows -->
+  <!-- Card 1: Hibiscus Flower -->
+  <rect x="40" y="285" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="40" y="285" width="220" height="6" rx="6" fill="#C41E3A"/>
+  <text x="150" y="330" text-anchor="middle" font-size="36">🌺</text>
+  <text x="150" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Hibiscus Flower</text>
+  <text x="150" y="378" text-anchor="middle" font-size="9" fill="#C41E3A" letter-spacing="1" font-family="Arial, sans-serif">DRIED FLOWERS</text>
+  <text x="150" y="400" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Premium dried hibiscus, rich in</text>
+  <text x="150" y="415" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">antioxidants · Origin: West Africa</text>
+  <rect x="90" y="430" width="120" height="18" rx="9" fill="#C41E3A" opacity="0.1"/>
+  <text x="150" y="443" text-anchor="middle" font-size="9" fill="#C41E3A" font-family="Arial, sans-serif">Teas · Food Colouring · Cosmetics</text>
+
+  <!-- Card 2: Cocoa Nuts -->
+  <rect x="287" y="285" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="287" y="285" width="220" height="6" rx="6" fill="#5C3317"/>
+  <text x="397" y="330" text-anchor="middle" font-size="36">🥥</text>
+  <text x="397" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Cocoa Nuts</text>
+  <text x="397" y="378" text-anchor="middle" font-size="9" fill="#5C3317" letter-spacing="1" font-family="Arial, sans-serif">NUTS &amp; SEEDS</text>
+  <text x="397" y="400" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Premium fermented cocoa beans,</text>
+  <text x="397" y="415" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">export grade · Nigeria / Côte d'Ivoire</text>
+  <rect x="337" y="430" width="120" height="18" rx="9" fill="#5C3317" opacity="0.1"/>
+  <text x="397" y="443" text-anchor="middle" font-size="9" fill="#5C3317" font-family="Arial, sans-serif">Chocolate · Cosmetics · Oil</text>
+
+  <!-- Card 3: Cashew Nuts -->
+  <rect x="534" y="285" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="534" y="285" width="220" height="6" rx="6" fill="#B5832A"/>
+  <text x="644" y="330" text-anchor="middle" font-size="36">🥜</text>
+  <text x="644" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Cashew Nuts</text>
+  <text x="644" y="378" text-anchor="middle" font-size="9" fill="#B5832A" letter-spacing="1" font-family="Arial, sans-serif">NUTS &amp; SEEDS</text>
+  <text x="644" y="400" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">W180 · W240 · W320 · W450 grades</text>
+  <text x="644" y="415" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Origin: Nigeria, Benin, Guinea-Bissau</text>
+  <rect x="584" y="430" width="120" height="18" rx="9" fill="#B5832A" opacity="0.1"/>
+  <text x="644" y="443" text-anchor="middle" font-size="9" fill="#B5832A" font-family="Arial, sans-serif">Snacking · Butter · Oil</text>
+
+  <!-- Card 4: Sesame Seeds -->
+  <rect x="40" y="480" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="40" y="480" width="220" height="6" rx="6" fill="#C8973A"/>
+  <text x="150" y="525" text-anchor="middle" font-size="36">🫘</text>
+  <text x="150" y="555" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Sesame Seeds</text>
+  <text x="150" y="573" text-anchor="middle" font-size="9" fill="#C8973A" letter-spacing="1" font-family="Arial, sans-serif">SEEDS</text>
+  <text x="150" y="595" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Natural &amp; hulled, 99.95% purity</text>
+  <text x="150" y="610" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">48–52% oil content · Origin: Nigeria</text>
+  <rect x="90" y="625" width="120" height="18" rx="9" fill="#C8973A" opacity="0.1"/>
+  <text x="150" y="638" text-anchor="middle" font-size="9" fill="#C8973A" font-family="Arial, sans-serif">Tahini · Oil · Baked Goods</text>
+
+  <!-- Card 5: Ground Nuts -->
+  <rect x="287" y="480" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="287" y="480" width="220" height="6" rx="6" fill="#9B6A2E"/>
+  <text x="397" y="525" text-anchor="middle" font-size="36">🥜</text>
+  <text x="397" y="555" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Ground Nuts</text>
+  <text x="397" y="573" text-anchor="middle" font-size="9" fill="#9B6A2E" letter-spacing="1" font-family="Arial, sans-serif">NUTS &amp; SEEDS</text>
+  <text x="397" y="595" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Bold, Java &amp; Runner varieties</text>
+  <text x="397" y="610" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Max 8% moisture · Origin: Nigeria</text>
+  <rect x="337" y="625" width="120" height="18" rx="9" fill="#9B6A2E" opacity="0.1"/>
+  <text x="397" y="638" text-anchor="middle" font-size="9" fill="#9B6A2E" font-family="Arial, sans-serif">Butter · Oil · Animal Feed</text>
+
+  <!-- Card 6: Soy Beans -->
+  <rect x="534" y="480" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <rect x="534" y="480" width="220" height="6" rx="6" fill="#7B5E3A"/>
+  <text x="644" y="525" text-anchor="middle" font-size="36">🫘</text>
+  <text x="644" y="555" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Soy Beans</text>
+  <text x="644" y="573" text-anchor="middle" font-size="9" fill="#7B5E3A" letter-spacing="1" font-family="Arial, sans-serif">LEGUMES</text>
+  <text x="644" y="595" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Bambara groundnuts, superfood</text>
+  <text x="644" y="610" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">High protein · Origin: Nigeria/Niger</text>
+  <rect x="584" y="625" width="120" height="18" rx="9" fill="#7B5E3A" opacity="0.1"/>
+  <text x="644" y="638" text-anchor="middle" font-size="9" fill="#7B5E3A" font-family="Arial, sans-serif">Protein Products · Flour · Beverages</text>
+
+  <!-- Certifications / Standards bar -->
+  <rect x="40" y="680" width="714" height="80" rx="12" fill="#1B4332"/>
+  <text x="397" y="706" text-anchor="middle" font-size="10" fill="#D4A843" letter-spacing="2" font-family="Arial, sans-serif">QUALITY &amp; COMPLIANCE STANDARDS</text>
+  <text x="140" y="732" text-anchor="middle" font-size="11" fill="white" opacity="0.8" font-family="Arial, sans-serif">✓ EU Food Safety</text>
+  <text x="290" y="732" text-anchor="middle" font-size="11" fill="white" opacity="0.8" font-family="Arial, sans-serif">✓ FDA Compliant</text>
+  <text x="430" y="732" text-anchor="middle" font-size="11" fill="white" opacity="0.8" font-family="Arial, sans-serif">✓ ISO Certified</text>
+  <text x="570" y="732" text-anchor="middle" font-size="11" fill="white" opacity="0.8" font-family="Arial, sans-serif">✓ Phytosanitary Cert.</text>
+  <text x="700" y="732" text-anchor="middle" font-size="11" fill="white" opacity="0.8" font-family="Arial, sans-serif">✓ COO</text>
+
+  <!-- Shipping terms -->
+  <text x="50" y="800" font-size="11" fill="#D4A843" letter-spacing="3" font-family="Arial, sans-serif">SHIPPING &amp; TRADE TERMS</text>
+  <rect x="50" y="808" width="40" height="2" fill="#D4A843"/>
+
+  <rect x="40" y="820" width="340" height="130" rx="10" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <text x="60" y="845" font-size="12" font-weight="bold" fill="#1B4332" font-family="Georgia, serif">Available Trade Terms</text>
+  <text x="60" y="867" font-size="10" fill="#555" font-family="Arial, sans-serif">• FOB Lagos / Apapa / Tin Can Island</text>
+  <text x="60" y="883" font-size="10" fill="#555" font-family="Arial, sans-serif">• CIF (all major global ports)</text>
+  <text x="60" y="899" font-size="10" fill="#555" font-family="Arial, sans-serif">• CFR available on request</text>
+  <text x="60" y="915" font-size="10" fill="#555" font-family="Arial, sans-serif">• Minimum order: 1 MT (most products)</text>
+  <text x="60" y="931" font-size="10" fill="#555" font-family="Arial, sans-serif">• Packaging: PP bags, jute bags, custom</text>
+
+  <rect x="414" y="820" width="340" height="130" rx="10" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
+  <text x="434" y="845" font-size="12" font-weight="bold" fill="#1B4332" font-family="Georgia, serif">Payment &amp; Documentation</text>
+  <text x="434" y="867" font-size="10" fill="#555" font-family="Arial, sans-serif">• Payment: L/C, T/T, Western Union</text>
+  <text x="434" y="883" font-size="10" fill="#555" font-family="Arial, sans-serif">• Certificate of Origin included</text>
+  <text x="434" y="899" font-size="10" fill="#555" font-family="Arial, sans-serif">• Phytosanitary Certificate</text>
+  <text x="434" y="915" font-size="10" fill="#555" font-family="Arial, sans-serif">• SGS / Bureau Veritas inspection avail.</text>
+  <text x="434" y="931" font-size="10" fill="#555" font-family="Arial, sans-serif">• Full export documentation support</text>
+
+  <!-- Bottom green footer -->
+  <rect x="0" y="970" width="794" height="153" fill="#1B4332"/>
+  
+  <!-- Decorative circles in footer -->
+  <circle cx="730" cy="1070" r="100" fill="#2e8037" opacity="0.3"/>
+  <circle cx="60" cy="975" r="60" fill="#4fa158" opacity="0.2"/>
+
+  <text x="397" y="1010" text-anchor="middle" font-size="18" font-weight="bold" fill="white" font-family="Georgia, serif">Ready to Start Importing?</text>
+  <text x="397" y="1033" text-anchor="middle" font-size="11" fill="white" opacity="0.6" font-family="Arial, sans-serif">Contact our trade team for pricing, samples, and specifications</text>
+  
+  <!-- Contact line -->
+  <rect x="197" y="1052" width="400" height="1" fill="white" opacity="0.2"/>
+  
+  <text x="200" y="1078" font-size="10" fill="#D4A843" font-family="Arial, sans-serif">🌐 asminaglobal.com</text>
+  <text x="380" y="1078" font-size="10" fill="white" opacity="0.6" font-family="Arial, sans-serif">✉ info@asminaglobal.com</text>
+  <text x="200" y="1098" font-size="10" fill="white" opacity="0.6" font-family="Arial, sans-serif">📍 Lagos, Nigeria</text>
+  <text x="380" y="1098" font-size="10" fill="white" opacity="0.6" font-family="Arial, sans-serif">📞 +234 800 000 0000</text>
+
+  <text x="397" y="1115" text-anchor="middle" font-size="9" fill="white" opacity="0.25" font-family="Arial, sans-serif">© 2025 Asmina Global Ltd. All rights reserved. Prices subject to change without notice.</text>
+</svg>
