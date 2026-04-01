@@ -24,8 +24,15 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Call Us",
-    value: "+234 800 000 0000",
-    href: "tel:+2348000000000",
+    value: "+234 803 538 2638",
+    href: "tel:+2348035382638",
+    description: "Mon–Fri, 8am–6pm WAT",
+  },
+  {
+    icon: Phone,
+    label: "Call Us",
+    value: "+36 20 506 3139",
+    href: "tel:+2348035382638",
     description: "Mon–Fri, 8am–6pm WAT",
   },
   {

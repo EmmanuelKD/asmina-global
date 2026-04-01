@@ -124,7 +124,7 @@ export default function Footer() {
                     href="tel:+2348000000000"
                     className="font-body text-sm text-cream-300/60 hover:text-amber-300 transition-colors"
                   >
-                    +234 800 000 0000
+                    +234 803 538 2638
                   </a>
                 </li>
               </ul>
