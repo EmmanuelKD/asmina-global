@@ -43,11 +43,11 @@
   <rect x="90" y="430" width="120" height="18" rx="9" fill="#C41E3A" opacity="0.1"/>
   <text x="150" y="443" text-anchor="middle" font-size="9" fill="#C41E3A" font-family="Arial, sans-serif">Teas · Food Colouring · Cosmetics</text>
 
-  <!-- Card 2: Cocoa Nuts -->
+  <!-- Card 2: Cocoa Bean -->
   <rect x="287" y="285" width="220" height="175" rx="12" fill="white" stroke="#F0E8D8" stroke-width="1.5"/>
   <rect x="287" y="285" width="220" height="6" rx="6" fill="#5C3317"/>
   <text x="397" y="330" text-anchor="middle" font-size="36">🥥</text>
-  <text x="397" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Cocoa Nuts</text>
+  <text x="397" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#2A1810" font-family="Georgia, serif">Cocoa Bean</text>
   <text x="397" y="378" text-anchor="middle" font-size="9" fill="#5C3317" letter-spacing="1" font-family="Arial, sans-serif">NUTS &amp; SEEDS</text>
   <text x="397" y="400" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">Premium fermented cocoa beans,</text>
   <text x="397" y="415" text-anchor="middle" font-size="9.5" fill="#666" font-family="Arial, sans-serif">export grade · Nigeria / Côte d'Ivoire</text>

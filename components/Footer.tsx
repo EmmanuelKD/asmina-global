@@ -15,7 +15,7 @@ const footerLinks = {
     { href: "/products#cashew-nuts", label: "Cashew Nuts" },
     { href: "/products#sesame-seeds", label: "Sesame Seeds" },
     { href: "/products#ground-nuts", label: "Ground Nuts" },
-    { href: "/products#cocoa-nuts", label: "Cocoa Nuts" },
+    { href: "/products#cocoa-beans", label: "Cocoa Bean" },
     { href: "/products#soy-beans", label: "Soy Beans" },
   ],
 };

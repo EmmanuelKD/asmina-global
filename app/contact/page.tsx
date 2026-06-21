@@ -329,7 +329,7 @@ export default function ContactPage() {
                         >
                           <option value="">Select product…</option>
                           <option>Hibiscus Flower</option>
-                          <option>Cocoa Nuts</option>
+                          <option>Cocoa Bean</option>
                           <option>Cashew Nuts</option>
                           <option>Sesame Seeds</option>
                           <option>Ground Nuts</option>

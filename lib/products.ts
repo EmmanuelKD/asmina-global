@@ -33,14 +33,14 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: "Cocoa Nuts",
-    slug: "cocoa-nuts",
+    name: "Cocoa Bean",
+    slug: "cocoa-beans",
     category: "Nuts & Seeds",
     tagline: "Pure cacao. Farm to global.",
     description:
       "High-quality cocoa beans and nuts, carefully fermented and dried, delivering the authentic rich chocolate flavour prized by confectioners worldwide.",
     longDescription:
-      "Our cocoa nuts are sourced from smallholder farmers across West Africa's cocoa belt. Properly fermented to develop deep flavour notes, then sun-dried and sorted to premium export grade. We offer both raw and processed varieties suitable for the confectionery, beverage, and cosmetics industries.",
+      "Our cocoa bean are sourced from smallholder farmers across West Africa's cocoa belt. Properly fermented to develop deep flavour notes, then sun-dried and sorted to premium export grade. We offer both raw and processed varieties suitable for the confectionery, beverage, and cosmetics industries.",
     uses: ["Chocolate & confectionery", "Beverage production", "Cosmetics & skincare", "Pharmaceutical extracts", "Butter & oil production"],
     origin: "Nigeria, Côte d'Ivoire",
     image: "/products/coconut.png",

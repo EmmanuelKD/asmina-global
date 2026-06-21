@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Asmina Global is a leading exporter of premium African agricultural products including hibiscus flowers, cashew nuts, sesame seeds, groundnuts, cocoa, and Soy beans.",
   keywords:
-    "hibiscus export, cashew nuts, sesame seeds, groundnuts, cocoa nuts, Soy beans, agricultural export Nigeria, dried fruits export",
+    "hibiscus export, cashew nuts, sesame seeds, groundnuts, cocoa bean, Soy beans, agricultural export Nigeria, dried fruits export",
   metadataBase: new URL("https://asminaglobal.com"),
   openGraph: {
     title: "Asmina Global | Premium Agricultural Exports",

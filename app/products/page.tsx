@@ -7,7 +7,7 @@ import ProductCard from "@/components/ProductCard";
 export const metadata = {
   title: "Products | Asmina Global",
   description:
-    "Explore our premium range of West African agricultural exports: hibiscus flowers, cashew nuts, sesame seeds, groundnuts, cocoa nuts, and Soy beans.",
+    "Explore our premium range of West African agricultural exports: hibiscus flowers, cashew nuts, sesame seeds, groundnuts, cocoa bean, and Soy beans.",
 };
 
 export default function ProductsPage() {
