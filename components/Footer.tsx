@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { Leaf, Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
+import Image from "next/image";
+import { Mail, Phone, MapPin, Facebook, Instagram, Twitter, Linkedin } from "lucide-react";
 
 const footerLinks = {
   company: [
@@ -30,12 +31,16 @@ export default function Footer() {
             {/* Brand */}
             <div className="lg:col-span-1">
               <Link href="/" className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 rounded-full bg-forest-600 flex items-center justify-center">
-                  <Leaf className="w-5 h-5 text-cream-50" />
-                </div>
+                <Image
+                  src="/logo-white.png"
+                  alt="Asmina Global"
+                  width={140}
+                  height={48}
+                  className="h-12 w-auto object-contain"
+                />
                 <div>
                   <span className="font-display text-xl font-semibold text-white block leading-none">
-                    Asmina Global
+                    Asmina Global Investment
                   </span>
                   <span className="font-body text-[10px] tracking-[0.2em] uppercase text-amber-400">
                     Agricultural Exports

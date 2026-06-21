@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { Menu, X, Leaf } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -29,7 +30,6 @@ export default function Navbar() {
     : "bg-transparent";
 
   const textColor = scrolled || !isHome ? "text-earth-800" : "text-white";
-  const logoColor = scrolled || !isHome ? "text-forest-700" : "text-white";
 
   return (
     <header
@@ -39,12 +39,17 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18 py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group">
-            <div className={`w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${scrolled || !isHome ? "bg-forest-700" : "bg-white/20 backdrop-blur-sm"}`}>
-              <Leaf className={`w-5 h-5 ${scrolled || !isHome ? "text-cream-50" : "text-white"}`} />
-            </div>
+            <Image
+              src={scrolled || !isHome ? "/logo.png" : "/logo-white.png"}
+              alt="Asmina Global"
+              width={120}
+              height={40}
+              className="h-10 w-auto object-contain transition-all duration-300"
+              priority
+            />
             <div>
-              <span className={`font-display text-xl font-semibold leading-none block transition-colors duration-300 ${logoColor}`}>
-                Asmina Global
+              <span className={`font-display text-xl font-semibold leading-none block transition-colors duration-300 ${scrolled || !isHome ? "text-forest-700" : "text-white"}`}>
+                Asmina Global Investment
               </span>
               <span className={`font-body text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 ${scrolled || !isHome ? "text-amber-500" : "text-amber-200"}`}>
                 Agricultural Exports

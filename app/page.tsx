@@ -14,12 +14,6 @@ import {
 import { products } from "@/lib/products";
 import ProductCard from "@/components/ProductCard";
 
-const stats = [
-  { value: "50+", label: "Countries Served" },
-  { value: "200+", label: "Global Partners" },
-  { value: "6", label: "Premium Products" },
-  { value: "10+", label: "Years Experience" },
-];
 
 const features = [
   {
@@ -144,26 +138,47 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Stats row */}
+        {/* ── Heritage strip ── */}
         <div className="absolute bottom-0 left-0 right-0">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-px bg-white/10 backdrop-blur-md border-t border-white/10 rounded-t-2xl overflow-hidden">
-              {stats.map((stat) => (
-                <div
-                  key={stat.label}
-                  className="bg-earth-800/60 backdrop-blur-sm px-6 py-5 text-center"
-                >
-                  <div className="font-display text-3xl font-bold text-amber-300 mb-1">
-                    {stat.value}
-                  </div>
-                  <div className="font-body text-xs text-white/50 tracking-widest uppercase">
-                    {stat.label}
-                  </div>
+            <div className="bg-earth-800/70 backdrop-blur-md border-t border-white/10 rounded-t-2xl overflow-hidden px-6 py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+              <div className="flex items-center gap-3">
+                <div className="w-1 h-10 rounded-full bg-amber-400 shrink-0" />
+                <div>
+                  <p className="font-display text-white text-lg font-semibold leading-tight">
+                    20 Years of Agricultural Roots.
+                    <span className="text-amber-300 italic"> Now Going Global.</span>
+                  </p>
+                  <p className="font-body text-white/40 text-xs mt-0.5 tracking-wide">
+                    Built on two decades of trust with West African farmers — expanding to world markets.
+                  </p>
                 </div>
-              ))}
+              </div>
+              <div className="flex items-center gap-6 shrink-0">
+                {[
+                  { value: "20+", label: "Yrs Trading" },
+                  { value: "6", label: "Products" },
+                  { value: "100%", label: "Farm Direct" },
+                ].map((item) => (
+                  <div key={item.label} className="text-center">
+                    <div className="font-display text-2xl font-bold text-amber-300 leading-none">{item.value}</div>
+                    <div className="font-body text-[10px] text-white/40 tracking-widest uppercase mt-0.5">{item.label}</div>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
+
+        {/*
+          ORIGINAL STATS — removed as they don't reflect current stage.
+          Re-enable once international milestones are established.
+
+          { value: "50+", label: "Countries Served" },
+          { value: "200+", label: "Global Partners" },
+          { value: "6", label: "Premium Products" },
+          { value: "10+", label: "Years Experience" },
+        */}
       </section>
 
       {/* ─── ABOUT INTRO ─────────────────────────────── */}

@@ -43,12 +43,26 @@ const contactInfo = [
     description: "Export operations headquartered in Lagos",
   },
   {
-    icon: Globe,
-    label: "Website",
-    value: "asminaglobal.com",
-    href: "https://asminaglobal.com",
-    description: "Visit our website anytime",
+    icon: MapPin,
+    label: "Office",
+    value: "Nassarawo, Gombe State, Nigeria",
+    href: "https://maps.app.goo.gl/TVVMfKewjhpQmgY58",
+    description: "Regional office supporting operations in Gombe State",
   },
+  {
+    icon: MapPin,
+    label: "Office",
+    value: "36 Ibo Road, Kano State, Nigeria",
+    href: "https://maps.app.goo.gl/cT61tEqXZvdTkgYG7",
+    description: "Regional office serving business activities in Kano State",
+  }
+  // {
+  //   icon: Globe,
+  //   label: "Website",
+  //   value: "asminaglobal.com",
+  //   href: "https://asminaglobal.com",
+  //   description: "Visit our website anytime",
+  // },
 ];
 
 const inquiryTypes = [

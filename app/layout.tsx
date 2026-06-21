@@ -10,11 +10,17 @@ export const metadata: Metadata = {
   keywords:
     "hibiscus export, cashew nuts, sesame seeds, groundnuts, cocoa bean, Soy beans, agricultural export Nigeria, dried fruits export",
   metadataBase: new URL("https://asminaglobal.com"),
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
   openGraph: {
     title: "Asmina Global | Premium Agricultural Exports",
     description:
-      "Your trusted partner for premium quality African agricultural products.",
+      "Your trusted partner for premium quality African agricultural produce.",
     type: "website",
+    images: ["/logo.png"],
   },
 };
 
