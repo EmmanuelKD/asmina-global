@@ -62,6 +62,8 @@ const inquiryTypes = [
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const [form, setForm] = useState({
     name: "",
     company: "",
@@ -82,9 +84,26 @@ export default function ContactPage() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || "Something went wrong. Please try again.");
+      }
+      setSubmitted(true);
+    } catch (err: unknown) {
+      setError(err instanceof Error ? err.message : "Something went wrong. Please try again.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -199,7 +218,7 @@ export default function ContactPage() {
                       business hours.
                     </p>
                     <button
-                      onClick={() => setSubmitted(false)}
+                      onClick={() => { setSubmitted(false); setError(""); setForm({ name: "", company: "", email: "", phone: "", country: "", inquiryType: "", product: "", quantity: "", message: "" }); }}
                       className="btn-primary"
                     >
                       <MessageSquare className="w-4 h-4" /> Send Another
@@ -368,8 +387,19 @@ export default function ContactPage() {
                       />
                     </div>
 
-                    <button type="submit" className="btn-primary w-full justify-center text-base py-4">
-                      <Send className="w-4 h-4" /> Send Enquiry
+                    {error && (
+                      <p className="font-body text-sm text-red-600 bg-red-50 border border-red-200 rounded-xl px-4 py-3">
+                        {error}
+                      </p>
+                    )}
+
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="btn-primary w-full justify-center text-base py-4 disabled:opacity-60 disabled:cursor-not-allowed"
+                    >
+                      <Send className="w-4 h-4" />
+                      {loading ? "Sending…" : "Send Enquiry"}
                     </button>
 
                     <p className="font-body text-xs text-earth-800/30 text-center">
