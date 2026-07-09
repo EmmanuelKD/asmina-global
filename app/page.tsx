@@ -207,7 +207,7 @@ export default function HomePage() {
               </div>
               {/* Decorative badge */}
               <div className="absolute bottom-8 left-4 bg-forest-700 text-white rounded-2xl p-5 shadow-xl">
-                <div className="font-display text-4xl font-bold text-amber-300">10+</div>
+                <div className="font-display text-4xl font-bold text-amber-300">20+</div>
                 <div className="font-body text-xs text-white/70 mt-1">Years of excellence</div>
               </div>
             </div>
@@ -319,7 +319,7 @@ export default function HomePage() {
       </section>
 
       {/* ─── TESTIMONIALS ────────────────────────────── */}
-      <section className="py-24 bg-cream-50">
+      {/* <section className="py-24 bg-cream-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <span className="section-label">Client Stories</span>
@@ -339,7 +339,7 @@ export default function HomePage() {
                     : "bg-white border-amber-50 shadow-sm"
                 }`}
               >
-                {/* Quote mark */}
+
                 <div
                   className={`font-display text-6xl font-bold leading-none mb-4 ${
                     i === 1 ? "text-amber-300" : "text-amber-200"
@@ -385,7 +385,7 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ─── CATALOG CTA ─────────────────────────────── */}
       <section className="py-20 bg-amber-400 relative overflow-hidden">

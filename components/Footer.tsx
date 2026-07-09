@@ -51,7 +51,7 @@ export default function Footer() {
                 Your trusted partner for premium quality African agricultural
                 products. Bridging African farms to global markets.
               </p>
-              <div className="flex gap-3">
+              {/* <div className="flex gap-3">
                 {[Facebook, Instagram, Twitter, Linkedin].map((Icon, i) => (
                   <a
                     key={i}
@@ -61,7 +61,7 @@ export default function Footer() {
                     <Icon className="w-4 h-4" />
                   </a>
                 ))}
-              </div>
+              </div> */}
             </div>
 
             {/* Company Links */}
@@ -111,8 +111,15 @@ export default function Footer() {
                 <li className="flex items-start gap-3">
                   <MapPin className="w-4 h-4 text-amber-400 mt-0.5 shrink-0" />
                   <span className="font-body text-sm text-cream-300/60">
-                    Lagos, Nigeria &amp; International Operations
+                    <a
+                      href="https://maps.app.goo.gl/wy1zpfie4X9sAWUE8"
+                      className="font-body text-sm text-cream-300/60 hover:text-amber-300 transition-colors"
+                    >
+                     No 9, Wharf Road Kariko Tower Building,&amp; 1st Floor left wing Apapa Lagos
+                    </a>
+                    {/* Lagos, Nigeria  International Operations */}
                   </span>
+
                 </li>
                 <li className="flex items-center gap-3">
                   <Mail className="w-4 h-4 text-amber-400 shrink-0" />
@@ -164,14 +171,18 @@ export default function Footer() {
             © {new Date().getFullYear()} Asmina Global Ltd. All rights reserved.
           </p>
           <div className="flex gap-5">
-            {["Privacy Policy", "Terms of Service", "Shipping Policy"].map((item) => (
-              <a
-                key={item}
-                href="#"
+            {[
+              { label: "Privacy Policy", href: "/privacy-policy" },
+              { label: "Terms of Service", href: "/terms-of-service" },
+              { label: "Shipping Policy", href: "/shipping-policy" },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
                 className="font-body text-xs text-cream-300/30 hover:text-amber-400 transition-colors"
               >
-                {item}
-              </a>
+                {item.label}
+              </Link>
             ))}
           </div>
         </div>

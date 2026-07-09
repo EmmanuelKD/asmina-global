@@ -38,8 +38,8 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Office",
-    value: "Lagos, Nigeria",
-    href: "#",
+    value: "No 9, Wharf Road Kariko Tower Building, 1st Floor left wing Apapa Lagos",
+    href: "https://maps.app.goo.gl/wy1zpfie4X9sAWUE8",
     description: "Export operations headquartered in Lagos",
   },
   {
