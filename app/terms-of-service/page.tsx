@@ -12,6 +12,7 @@ const sections = [
     title: "1. Acceptance of Terms",
     content: [
       {
+        subtitle: null,
         body: "By accessing or using the Asmina Global website (asminaglobal.com) or by engaging with us for the purchase or export of agricultural commodities, you confirm that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you must not use our website or services.\n\nThese Terms apply to all visitors, customers, business partners, and others who access or use our services.",
       },
     ],
@@ -133,6 +134,7 @@ const sections = [
     title: "8. Limitation of Liability",
     content: [
       {
+        subtitle: null,
         body: "To the fullest extent permitted by law, Asmina Global Investment Ltd shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use our website or services, including but not limited to loss of profits, data, or goodwill.\n\nOur total liability to you for any claim arising from or related to our services shall not exceed the total amount paid by you to us in the three (3) months preceding the claim.",
       },
     ],
@@ -142,6 +144,7 @@ const sections = [
     title: "9. Force Majeure",
     content: [
       {
+        subtitle: null,
         body: "Neither party shall be liable for delays or failures in performance resulting from causes beyond their reasonable control, including but not limited to: natural disasters, acts of God, fire, flood, drought, crop failure, war, civil unrest, strikes, government actions, port closures, or global supply chain disruptions. The affected party must notify the other party as soon as reasonably practicable.",
       },
     ],
@@ -165,6 +168,7 @@ const sections = [
     title: "11. Modifications",
     content: [
       {
+        subtitle: null,
         body: "We reserve the right to amend these Terms of Service at any time. Changes will be effective immediately upon posting to our website. Your continued use of the website after changes are posted constitutes your acceptance of the revised Terms. We encourage you to review this page periodically.",
       },
     ],
@@ -174,6 +178,7 @@ const sections = [
     title: "12. Contact",
     content: [
       {
+        subtitle: null,
         body: "For questions about these Terms of Service, please contact:\n\nAsmina Global Investment Ltd\nNo 9, Wharf Road, Kariko Tower Building, 1st Floor Left Wing\nApapa, Lagos, Nigeria\n\nEmail: info@asminaglobal.com\nPhone: +234 803 538 2638",
       },
     ],

@@ -46,6 +46,7 @@ const sections = [
     title: "1. Overview",
     content: [
       {
+        subtitle: null,
         body: "Asmina Global Investment Ltd is an agricultural export company operating from Lagos, Nigeria. We export premium agricultural commodities — including hibiscus flowers, cashew nuts, sesame seeds, groundnuts, cocoa beans, and soy beans — to international buyers under internationally recognised trade terms (Incoterms).\n\nThis Shipping Policy outlines how we handle the logistics of our export operations. Specific shipping terms for each transaction are agreed upon in the signed Sales Contract and may differ from the general guidelines set out here.",
       },
     ],
@@ -141,6 +142,7 @@ const sections = [
     title: "7. Cargo Insurance",
     content: [
       {
+        subtitle: null,
         body: "Under FOB terms, cargo insurance from the point of loading is the buyer's responsibility. Under CIF terms, Asmina Global arranges minimum cover (Institute Cargo Clauses 'C') included in the CIF price.\n\nWe strongly recommend that all buyers arrange comprehensive all-risk cargo insurance (Institute Cargo Clauses 'A') for shipments of agricultural commodities, given exposure to moisture, physical handling, and extended sea transit.\n\nWe can assist with recommending reputable insurance brokers upon request.",
       },
     ],
@@ -150,6 +152,7 @@ const sections = [
     title: "8. Customs & Import Duties",
     content: [
       {
+        subtitle: null,
         body: "Buyers are responsible for all import duties, taxes, customs clearance fees, and compliance with import regulations in their country of destination. Asmina Global provides all required export documentation to facilitate customs clearance at the destination port, but the buyer's customs agent or freight forwarder handles the import formalities.\n\nWe advise buyers to consult their local customs authority or freight forwarder for the applicable Harmonised System (HS) codes and import tariffs for each product prior to placing an order.",
       },
     ],
@@ -159,6 +162,7 @@ const sections = [
     title: "9. Sample Shipments",
     content: [
       {
+        subtitle: null,
         body: "We offer samples of our products to prospective buyers to evaluate quality before committing to a bulk order. Sample quantities are typically 0.5–2 kg per product and are shipped by international courier (DHL, FedEx, or UPS).\n\nSample shipping costs are generally shared between Asmina Global and the buyer. Please contact our trade team to arrange sample requests. Samples are dispatched within 5–10 business days of agreement.",
       },
     ],
@@ -186,6 +190,7 @@ const sections = [
     title: "11. Contact Our Logistics Team",
     content: [
       {
+        subtitle: null,
         body: "For shipping enquiries, freight quotes, or to discuss your logistics requirements, please reach out to our trade team:\n\nAsmina Global Investment Ltd\nNo 9, Wharf Road, Kariko Tower Building, 1st Floor Left Wing\nApapa, Lagos, Nigeria\n\nEmail: info@asminaglobal.com\nPhone: +234 803 538 2638\n\nOur team is available Monday to Friday, 8:00am – 6:00pm (WAT, UTC+1).",
       },
     ],
